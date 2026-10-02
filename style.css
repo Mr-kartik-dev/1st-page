@@ -1,0 +1,124 @@
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+    /* border:1px solid red; */
+}
+.container{
+    background-color:whitesmoke;
+    width:100%;
+    height:100vh;
+}
+#navbar{
+    width:100%;
+    padding:10px;
+    display: flex;
+    background-color: rgb(141, 221, 253) ;
+    border-radius: 5px; 
+}
+.left-section{
+    width:70%;
+    height:50px;
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+}
+.left section h1{
+    font-weight:900;
+}
+.right-section{
+    width:30%;
+    height:50px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap:28px;
+}
+.right-section a{
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+}
+.right-section a:first-child{
+    text-decoration: underline;
+}
+.header-box{
+    width:100%;
+    padding:30px;
+    background-color: rgb(222, 240, 248);
+    margin-top:30px;
+    padding-left: 50px;
+    border-radius: 5px;
+}
+.header-box h1{
+    font-size:40px;
+}
+.header-box p{
+    margin-top:10px;
+    font-weight:600;
+    color:rgba(0,0,0,0.705)
+}
+.header-box button{
+    padding:10px;
+    background-color: #00aeff;
+    border-radius: 5px;
+    color: whitesmoke;
+    border:none;
+    margin-top:20px;
+}
+.our-services{
+    margin-top:50px;
+    margin-left:50px;
+}
+.boxes{
+    width: 100%;
+    padding-block:20px;
+    display:flex;
+    margin-top:10px;
+    align-items:center;
+    justify-content: space-evenly;
+}
+.boxes .box:nth-child(1){
+    background-color: pink;
+}
+.boxes .box:nth-child(2){
+    background-color: cadetblue;
+}
+.boxes .box:nth-child(3){
+    background-color: darkkhaki;
+}
+.boxes .box:nth-child(4){
+    background-color:darkslateblue;
+}
+.box{
+    width:280px;
+    height:150px;
+    border-radius: 8px;
+    padding:20px;
+}
+.box p{
+    margin-top:10px;
+    font-weight:600;
+    color:rgba(0,0,0,0.699);
+}
+footer{
+    width:100%;
+    background-color:#71706f;
+    height:70px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top:17px;
+}
+footer span{
+    font-weight:600;
+    color:white;
+}
+footer span{
+    font-weight:400;
+    color:whitesmoke
+}
+footer p{
+    margin-top:10px;
+}
